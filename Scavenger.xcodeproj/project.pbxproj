@@ -15,6 +15,7 @@
 		C57305FA1C0361140074F02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57305F81C0361140074F02B /* LaunchScreen.storyboard */; };
 		C57306051C0361140074F02B /* ScavengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57306041C0361140074F02B /* ScavengerTests.swift */; };
 		C57306101C0361140074F02B /* ScavengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C573060F1C0361140074F02B /* ScavengerUITests.swift */; };
+		C573061E1C0361280074F02B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573061D1C0361280074F02B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C573060B1C0361140074F02B /* ScavengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScavengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C573060F1C0361140074F02B /* ScavengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavengerUITests.swift; sourceTree = "<group>"; };
 		C57306111C0361140074F02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C573061D1C0361280074F02B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C573061E1C0361280074F02B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		C57305E11C0361140074F02B = {
 			isa = PBXGroup;
 			children = (
+				C573061D1C0361280074F02B /* MapKit.framework */,
 				C57305EC1C0361140074F02B /* Scavenger */,
 				C57306031C0361140074F02B /* ScavengerTests */,
 				C573060E1C0361140074F02B /* ScavengerUITests */,
@@ -196,6 +200,15 @@
 				TargetAttributes = {
 					C57305E91C0361140074F02B = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3TS43WCDJV;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					C57305FF1C0361140074F02B = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -401,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Scavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saweiller.Scavenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Scavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saweiller.Scavenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
