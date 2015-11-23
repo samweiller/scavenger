@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QHQ-xg-Idf">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
@@ -7,31 +7,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
-        <scene sceneID="yl2-sM-qoP">
-            <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
-                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="QHQ-xg-Idf" kind="relationship" relationship="viewControllers" id="Aep-I2-2ok"/>
-                        <segue destination="2sT-hD-Ljr" kind="relationship" relationship="viewControllers" id="qPU-kF-0qE"/>
-                        <segue destination="fpG-Yr-Irp" kind="relationship" relationship="viewControllers" id="Ks9-BA-JPf"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1422" y="-165.75"/>
-        </scene>
         <!--Instruction-->
         <scene sceneID="7zr-nA-cvw">
             <objects>
-                <viewController id="QHQ-xg-Idf" userLabel="Instruction" customClass="ViewController" customModule="testagain" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QHQ-xg-Idf" userLabel="Instruction" customClass="ViewController" customModule="Scavenger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KFi-kg-AhI"/>
                         <viewControllerLayoutGuide type="bottom" id="OVV-9R-YIw"/>
@@ -81,8 +60,7 @@
                                         <exclude reference="OLk-y5-zZV"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="105" y="565.5" width="190" height="34"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="OLk-y5-zZV"/>
                                     </mask>
@@ -122,8 +100,7 @@
                                         <exclude reference="OrA-tb-p2c"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="95" y="300" width="210" height="240"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="HSj-os-T8j"/>
                                         <include reference="OrA-tb-p2c"/>
@@ -155,10 +132,10 @@
                                 <exclude reference="U7z-oG-xKG"/>
                                 <exclude reference="Htb-Vx-gUc"/>
                                 <exclude reference="wLZ-S4-RVi"/>
-                                <exclude reference="lSW-fu-SKJ"/>
-                                <exclude reference="yIa-dC-glX"/>
                                 <exclude reference="KyR-cg-TCj"/>
                                 <exclude reference="e5s-z6-AeV"/>
+                                <exclude reference="lSW-fu-SKJ"/>
+                                <exclude reference="yIa-dC-glX"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -173,10 +150,10 @@
                                 <include reference="U7z-oG-xKG"/>
                                 <include reference="Htb-Vx-gUc"/>
                                 <include reference="wLZ-S4-RVi"/>
-                                <include reference="lSW-fu-SKJ"/>
-                                <include reference="yIa-dC-glX"/>
                                 <include reference="KyR-cg-TCj"/>
                                 <include reference="e5s-z6-AeV"/>
+                                <include reference="lSW-fu-SKJ"/>
+                                <include reference="yIa-dC-glX"/>
                             </mask>
                         </variation>
                     </view>
@@ -214,18 +191,18 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="22C-bw-oq2"/>
-                                        <exclude reference="cPR-oe-v8x"/>
-                                        <exclude reference="MAy-0R-ke5"/>
                                         <exclude reference="5hY-gJ-L3w"/>
+                                        <exclude reference="MAy-0R-ke5"/>
+                                        <exclude reference="cPR-oe-v8x"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="155" y="725" width="91" height="30"/>
                                     <mask key="constraints">
                                         <include reference="22C-bw-oq2"/>
-                                        <include reference="cPR-oe-v8x"/>
-                                        <include reference="MAy-0R-ke5"/>
                                         <include reference="5hY-gJ-L3w"/>
+                                        <include reference="MAy-0R-ke5"/>
+                                        <include reference="cPR-oe-v8x"/>
                                     </mask>
                                 </variation>
                             </button>
@@ -288,7 +265,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p9h-DQ-aFt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-339" y="-165.75"/>
+            <point key="canvasLocation" x="531" y="-702.75"/>
         </scene>
         <!--Leader-->
         <scene sceneID="z9a-lk-H4b">
