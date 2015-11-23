@@ -34,6 +34,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgY-1n-dp1">
                                 <rect key="frame" x="206" y="463" width="40" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Score"/>
                             </button>
                         </subviews>
