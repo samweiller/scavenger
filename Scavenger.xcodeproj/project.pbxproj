@@ -16,6 +16,7 @@
 		C57306051C0361140074F02B /* ScavengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57306041C0361140074F02B /* ScavengerTests.swift */; };
 		C57306101C0361140074F02B /* ScavengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C573060F1C0361140074F02B /* ScavengerUITests.swift */; };
 		C573061E1C0361280074F02B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573061D1C0361280074F02B /* MapKit.framework */; };
+		C592DD731C036A2B005F2B3F /* b2378221105015.562fb8d0ee281.png in Resources */ = {isa = PBXBuildFile; fileRef = C592DD721C036A2B005F2B3F /* b2378221105015.562fb8d0ee281.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C573060F1C0361140074F02B /* ScavengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavengerUITests.swift; sourceTree = "<group>"; };
 		C57306111C0361140074F02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C573061D1C0361280074F02B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C592DD721C036A2B005F2B3F /* b2378221105015.562fb8d0ee281.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2378221105015.562fb8d0ee281.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				C57306031C0361140074F02B /* ScavengerTests */,
 				C573060E1C0361140074F02B /* ScavengerUITests */,
 				C57305EB1C0361140074F02B /* Products */,
+				C592DD721C036A2B005F2B3F /* b2378221105015.562fb8d0ee281.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C592DD731C036A2B005F2B3F /* b2378221105015.562fb8d0ee281.png in Resources */,
 				C57305FA1C0361140074F02B /* LaunchScreen.storyboard in Resources */,
 				C57305F71C0361140074F02B /* Assets.xcassets in Resources */,
 				C57305F51C0361140074F02B /* Main.storyboard in Resources */,
@@ -505,6 +509,7 @@
 				C57306161C0361140074F02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C57306171C0361140074F02B /* Build configuration list for PBXNativeTarget "ScavengerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				C57306191C0361140074F02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C573061A1C0361140074F02B /* Build configuration list for PBXNativeTarget "ScavengerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				C573061C1C0361140074F02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
