@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QHQ-xg-Idf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2sT-hD-Ljr">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
@@ -166,106 +166,24 @@
         <!--MapTime-->
         <scene sceneID="ujU-nF-uFr">
             <objects>
-                <viewController id="2sT-hD-Ljr" userLabel="MapTime" sceneMemberID="viewController">
+                <viewController id="2sT-hD-Ljr" userLabel="MapTime" customClass="MapViewController" customModule="Scavenger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xxb-rc-0qH"/>
                         <viewControllerLayoutGuide type="bottom" id="E9F-OM-yPH"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TSE-lf-iys">
+                    <view key="view" contentMode="scaleToFill" id="TSE-lf-iys" customClass="GMSMapView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilL-hY-auX">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.12549019610000001" green="0.6705882353" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="91" id="22C-bw-oq2"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="5hY-gJ-L3w"/>
-                                    <constraint firstAttribute="height" constant="30" id="MAy-0R-ke5"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="91" id="cPR-oe-v8x"/>
-                                </constraints>
-                                <state key="normal" title="Score ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="22C-bw-oq2"/>
-                                        <exclude reference="5hY-gJ-L3w"/>
-                                        <exclude reference="MAy-0R-ke5"/>
-                                        <exclude reference="cPR-oe-v8x"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="155" y="725" width="91" height="30"/>
-                                    <mask key="constraints">
-                                        <include reference="22C-bw-oq2"/>
-                                        <include reference="5hY-gJ-L3w"/>
-                                        <include reference="MAy-0R-ke5"/>
-                                        <include reference="cPR-oe-v8x"/>
-                                    </mask>
-                                </variation>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Down arrow" translatesAutoresizingMaskIntoConstraints="NO" id="l6I-4C-vlN">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="14" id="Tgd-77-Tgd"/>
-                                    <constraint firstAttribute="height" constant="12" id="wwh-Mz-iOZ"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Tgd-77-Tgd"/>
-                                        <exclude reference="wwh-Mz-iOZ"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="225" y="734" width="14" height="12"/>
-                                    <mask key="constraints">
-                                        <include reference="Tgd-77-Tgd"/>
-                                        <include reference="wwh-Mz-iOZ"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
-                        </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="ilL-hY-auX" firstAttribute="leading" secondItem="TSE-lf-iys" secondAttribute="leading" constant="155" id="DIO-9R-gYE"/>
-                            <constraint firstAttribute="trailing" secondItem="ilL-hY-auX" secondAttribute="trailing" constant="154" id="XRX-Uv-Fyo"/>
-                            <constraint firstItem="l6I-4C-vlN" firstAttribute="leading" secondItem="TSE-lf-iys" secondAttribute="leading" constant="225" id="bFe-xp-mJe"/>
-                            <constraint firstAttribute="trailing" secondItem="l6I-4C-vlN" secondAttribute="trailing" constant="161" id="xFf-00-x5u"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="ilL-hY-auX"/>
-                                <exclude reference="l6I-4C-vlN"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="DIO-9R-gYE"/>
-                                <exclude reference="XRX-Uv-Fyo"/>
-                                <exclude reference="bFe-xp-mJe"/>
-                                <exclude reference="xFf-00-x5u"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="ilL-hY-auX"/>
-                                <include reference="l6I-4C-vlN"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="DIO-9R-gYE"/>
-                                <include reference="XRX-Uv-Fyo"/>
-                                <include reference="bFe-xp-mJe"/>
-                                <include reference="xFf-00-x5u"/>
-                            </mask>
-                        </variation>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="Mapicon" selectedImage="Mapicon" id="iKJ-9A-94T"/>
+                    <connections>
+                        <outlet property="theMap" destination="TSE-lf-iys" id="7Qa-0W-NzJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p9h-DQ-aFt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="531" y="-702.75"/>
+            <point key="canvasLocation" x="-339" y="-132.75"/>
         </scene>
         <!--Leader-->
         <scene sceneID="z9a-lk-H4b">
@@ -290,8 +208,6 @@
     </scenes>
     <resources>
         <image name="Circle Logo-1" width="177" height="177"/>
-        <image name="Down arrow" width="20" height="12"/>
-        <image name="Mapicon" width="40" height="36"/>
         <image name="TrophyGray" width="40" height="40"/>
         <image name="instruction" width="40" height="40"/>
     </resources>

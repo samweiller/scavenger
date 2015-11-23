@@ -7,11 +7,26 @@
 //
 
 import UIKit
+import GoogleMaps
 
-class MapViewController: UIViewController {
-    
+class MapViewController: UIViewController, CLLocationManagerDelegate {
+    @IBOutlet var theMap: GMSMapView!
+    let locationManager = CLLocationManager()
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        locationManager.delegate = self
+        
+        //        // Ask for Authorisation from the User.
+        //        self.locationManager.requestAlwaysAuthorization()
+        //
+        //        // For use in foreground
+        self.locationManager.requestWhenInUseAuthorization()
+        
+        locationManager.startUpdatingLocation()
+        theMap.myLocationEnabled = true
+        theMap.settings.myLocationButton = true
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
