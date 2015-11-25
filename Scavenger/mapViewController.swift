@@ -10,7 +10,8 @@ import UIKit
 import GoogleMaps
 
 class MapViewController: UIViewController, CLLocationManagerDelegate {
-    @IBOutlet var theMap: GMSMapView!
+    
+    @IBOutlet weak var theMap: GMSMapView!
     let locationManager = CLLocationManager()
 
     override func viewDidLoad() {
@@ -26,15 +27,5 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         theMap.myLocationEnabled = true
         theMap.settings.myLocationButton = true
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
 }
-

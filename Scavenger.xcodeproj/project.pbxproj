@@ -21,6 +21,18 @@
 		C57306101C0361140074F02B /* ScavengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C573060F1C0361140074F02B /* ScavengerUITests.swift */; };
 		C573061E1C0361280074F02B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573061D1C0361280074F02B /* MapKit.framework */; };
 		C592DD751C036B24005F2B3F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C592DD741C036B24005F2B3F /* Podfile */; };
+		C5FA96DF1C061D8000B18988 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96DD1C061D8000B18988 /* Bolts.framework */; };
+		C5FA96E01C061D8000B18988 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96DE1C061D8000B18988 /* Parse.framework */; };
+		C5FA96EB1C061DF400B18988 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E11C061DF400B18988 /* AudioToolbox.framework */; };
+		C5FA96EC1C061DF400B18988 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E21C061DF400B18988 /* CFNetwork.framework */; };
+		C5FA96ED1C061DF400B18988 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E31C061DF400B18988 /* CoreGraphics.framework */; };
+		C5FA96EE1C061DF400B18988 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E41C061DF400B18988 /* CoreLocation.framework */; };
+		C5FA96EF1C061DF400B18988 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E51C061DF400B18988 /* libsqlite3.tbd */; };
+		C5FA96F01C061DF400B18988 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E61C061DF400B18988 /* libz.tbd */; };
+		C5FA96F11C061DF400B18988 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E71C061DF400B18988 /* QuartzCore.framework */; };
+		C5FA96F21C061DF400B18988 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E81C061DF400B18988 /* Security.framework */; };
+		C5FA96F31C061DF400B18988 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E91C061DF400B18988 /* StoreKit.framework */; };
+		C5FA96F41C061DF400B18988 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96EA1C061DF400B18988 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +74,18 @@
 		C57306111C0361140074F02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C573061D1C0361280074F02B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C592DD741C036B24005F2B3F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C5FA96DD1C061D8000B18988 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		C5FA96DE1C061D8000B18988 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		C5FA96E11C061DF400B18988 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C5FA96E21C061DF400B18988 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C5FA96E31C061DF400B18988 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5FA96E41C061DF400B18988 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C5FA96E51C061DF400B18988 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C5FA96E61C061DF400B18988 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C5FA96E71C061DF400B18988 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C5FA96E81C061DF400B18988 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C5FA96E91C061DF400B18988 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C5FA96EA1C061DF400B18988 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E4E35F2516E73E344A713155 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +94,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FA96EB1C061DF400B18988 /* AudioToolbox.framework in Frameworks */,
+				C5FA96EC1C061DF400B18988 /* CFNetwork.framework in Frameworks */,
+				C5FA96ED1C061DF400B18988 /* CoreGraphics.framework in Frameworks */,
+				C5FA96EE1C061DF400B18988 /* CoreLocation.framework in Frameworks */,
+				C5FA96EF1C061DF400B18988 /* libsqlite3.tbd in Frameworks */,
+				C5FA96F01C061DF400B18988 /* libz.tbd in Frameworks */,
+				C5FA96F11C061DF400B18988 /* QuartzCore.framework in Frameworks */,
+				C5FA96F21C061DF400B18988 /* Security.framework in Frameworks */,
+				C5FA96F31C061DF400B18988 /* StoreKit.framework in Frameworks */,
+				C5FA96F41C061DF400B18988 /* SystemConfiguration.framework in Frameworks */,
+				C5FA96DF1C061D8000B18988 /* Bolts.framework in Frameworks */,
 				C573061E1C0361280074F02B /* MapKit.framework in Frameworks */,
+				C5FA96E01C061D8000B18988 /* Parse.framework in Frameworks */,
 				3C8F2A11FC54096CE2D46EA8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +131,18 @@
 		00E6D7D22A2A2CB37E2B171E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5FA96E11C061DF400B18988 /* AudioToolbox.framework */,
+				C5FA96E21C061DF400B18988 /* CFNetwork.framework */,
+				C5FA96E31C061DF400B18988 /* CoreGraphics.framework */,
+				C5FA96E41C061DF400B18988 /* CoreLocation.framework */,
+				C5FA96E51C061DF400B18988 /* libsqlite3.tbd */,
+				C5FA96E61C061DF400B18988 /* libz.tbd */,
+				C5FA96E71C061DF400B18988 /* QuartzCore.framework */,
+				C5FA96E81C061DF400B18988 /* Security.framework */,
+				C5FA96E91C061DF400B18988 /* StoreKit.framework */,
+				C5FA96EA1C061DF400B18988 /* SystemConfiguration.framework */,
+				C5FA96DD1C061D8000B18988 /* Bolts.framework */,
+				C5FA96DE1C061D8000B18988 /* Parse.framework */,
 				0A33EC52B974350214B2BFE0 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -509,6 +557,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Scavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saweiller.Scavenger;
@@ -525,6 +577,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Scavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saweiller.Scavenger;
