@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C8F2A11FC54096CE2D46EA8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A33EC52B974350214B2BFE0 /* libPods.a */; };
+		C529F5741C08CA1500378ED1 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C529F5731C08CA1500378ED1 /* InstructionViewController.swift */; };
 		C52D422C1C036EEC00ABE909 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D422B1C036EEC00ABE909 /* mapViewController.swift */; };
 		C52D422E1C036FF400ABE909 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D422D1C036FF400ABE909 /* welcomeViewController.swift */; };
 		C52D42301C03703600ABE909 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D422F1C03703600ABE909 /* LeaderboardViewController.swift */; };
@@ -21,8 +22,6 @@
 		C57306101C0361140074F02B /* ScavengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C573060F1C0361140074F02B /* ScavengerUITests.swift */; };
 		C573061E1C0361280074F02B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573061D1C0361280074F02B /* MapKit.framework */; };
 		C592DD751C036B24005F2B3F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C592DD741C036B24005F2B3F /* Podfile */; };
-		C5FA96DF1C061D8000B18988 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96DD1C061D8000B18988 /* Bolts.framework */; };
-		C5FA96E01C061D8000B18988 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96DE1C061D8000B18988 /* Parse.framework */; };
 		C5FA96EB1C061DF400B18988 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E11C061DF400B18988 /* AudioToolbox.framework */; };
 		C5FA96EC1C061DF400B18988 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E21C061DF400B18988 /* CFNetwork.framework */; };
 		C5FA96ED1C061DF400B18988 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E31C061DF400B18988 /* CoreGraphics.framework */; };
@@ -33,6 +32,7 @@
 		C5FA96F21C061DF400B18988 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E81C061DF400B18988 /* Security.framework */; };
 		C5FA96F31C061DF400B18988 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E91C061DF400B18988 /* StoreKit.framework */; };
 		C5FA96F41C061DF400B18988 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96EA1C061DF400B18988 /* SystemConfiguration.framework */; };
+		C5FA96F61C061F9E00B18988 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA96F51C061F9E00B18988 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 /* Begin PBXFileReference section */
 		0A33EC52B974350214B2BFE0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6377D98315ADD302E47023 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C529F5731C08CA1500378ED1 /* InstructionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
 		C52D422B1C036EEC00ABE909 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		C52D422D1C036FF400ABE909 /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
 		C52D422F1C03703600ABE909 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		C5FA96E81C061DF400B18988 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C5FA96E91C061DF400B18988 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C5FA96EA1C061DF400B18988 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C5FA96F51C061F9E00B18988 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E4E35F2516E73E344A713155 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,9 +106,7 @@
 				C5FA96F21C061DF400B18988 /* Security.framework in Frameworks */,
 				C5FA96F31C061DF400B18988 /* StoreKit.framework in Frameworks */,
 				C5FA96F41C061DF400B18988 /* SystemConfiguration.framework in Frameworks */,
-				C5FA96DF1C061D8000B18988 /* Bolts.framework in Frameworks */,
 				C573061E1C0361280074F02B /* MapKit.framework in Frameworks */,
-				C5FA96E01C061D8000B18988 /* Parse.framework in Frameworks */,
 				3C8F2A11FC54096CE2D46EA8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,6 +191,8 @@
 				C57305EF1C0361140074F02B /* FirstViewController.swift */,
 				C57305F11C0361140074F02B /* SecondViewController.swift */,
 				C57305F31C0361140074F02B /* Main.storyboard */,
+				C529F5731C08CA1500378ED1 /* InstructionViewController.swift */,
+				C5FA96F51C061F9E00B18988 /* LoginViewController.swift */,
 				C57305F61C0361140074F02B /* Assets.xcassets */,
 				C57305F81C0361140074F02B /* LaunchScreen.storyboard */,
 				C57305FB1C0361140074F02B /* Info.plist */,
@@ -408,8 +410,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FA96F61C061F9E00B18988 /* LoginViewController.swift in Sources */,
 				C57305F21C0361140074F02B /* SecondViewController.swift in Sources */,
 				C57305EE1C0361140074F02B /* AppDelegate.swift in Sources */,
+				C529F5741C08CA1500378ED1 /* InstructionViewController.swift in Sources */,
 				C57305F01C0361140074F02B /* FirstViewController.swift in Sources */,
 				C52D422E1C036FF400ABE909 /* welcomeViewController.swift in Sources */,
 				C52D42301C03703600ABE909 /* LeaderboardViewController.swift in Sources */,
@@ -563,6 +567,52 @@
 				);
 				INFOPLIST_FILE = Scavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-l\"Bolts\"",
+					"-l\"Parse\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"Social\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.saweiller.Scavenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -583,6 +633,53 @@
 				);
 				INFOPLIST_FILE = Scavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-l\"Bolts\"",
+					"-l\"Parse\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"Social\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.saweiller.Scavenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
