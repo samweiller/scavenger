@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import Parse
 
 class InstructionViewController: UIViewController {
+    @IBOutlet weak var theTeamViewer: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        var query = PFQuery(className:"user")
+//        query.getObjectInBackgroundWithId("xWMyZEGZ") {
+//            (gameScore: PFObject?, error: NSError?) -> Void in
+//            if error == nil && gameScore != nil {
+//                print(gameScore)
+//            } else {
+//                print(error)
+//            }
+//        }
+        
+        var currentUser = PFUser.currentUser()
+        self.theTeamViewer.text = currentUser!.username
+        
     }
     
         

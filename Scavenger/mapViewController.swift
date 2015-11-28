@@ -8,6 +8,8 @@
 
 import UIKit
 import GoogleMaps
+import CoreLocation
+import MapKit
 
 class MapViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -27,5 +29,17 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         theMap.myLocationEnabled = true
         theMap.settings.myLocationButton = true
+        
+        // This code is from SwiftLocation. It might make my life easier?
+        // NOPE! JUST KIDDING THIS IS SO CONFUSING!
+        do {
+            let requestID = try SwiftLocation.shared.continuousLocation(Accuracy.Room, onSuccess: { (location) -> Void in
+                print("4. Location found \(location?.description)")
+                }) { (error) -> Void in
+                    print("4. Something went wrong -> \(error?.localizedDescription)")
+            }
+        } catch (let error) {
+            print("Error \(error)")
+        }
     }
 }
