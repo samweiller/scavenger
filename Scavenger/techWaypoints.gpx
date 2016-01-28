@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <wpt lat="33.7768194" lon="-84.3891487">
+        <name>33.7768194,-84.3891487</name>
+        <desc>44-62 5th St NW, Atlanta, GA 30308, USA</desc>
+    </wpt>
+    <wpt lat="33.7782557" lon="-84.3969109">
+        <name>33.7782557,-84.3969109</name>
+        <desc>310 Ferst Dr NW, Atlanta, GA 30318, USA</desc>
+    </wpt>
+    <wpt lat="33.7780049" lon="-84.4018206">
+        <name>33.7780049,-84.4018206</name>
+        <desc>813 Ferst Dr NW, Atlanta, GA 30313, USA</desc>
+    </wpt>
+    <wpt lat="33.7746079" lon="-84.3986389">
+        <name>33.7746079,-84.3986389</name>
+        <desc>355 Ferst Dr NW, Atlanta, GA 30313, USA</desc>
+    </wpt>
+    <wpt lat="33.7730576" lon="-84.3944149">
+        <name>33.7730576,-84.3944149</name>
+        <desc>Power Plant Dr NW, Atlanta, GA 30313, USA</desc>
+    </wpt>
+    <wpt lat="33.7754059" lon="-84.3919464">
+        <name>33.7754059,-84.3919464</name>
+        <desc>750-762 Techwood Dr NW, Atlanta, GA 30313, USA</desc>
+    </wpt>
+    <trk>
+        <name>44-62 5th St NW - 310 Ferst Dr NW</name>
+        <desc>0.5 mi, 0:10</desc>
+        <trkseg>
+            <trkpt lat="33.77685" lon="-84.38915"></trkpt>
+            <trkpt lat="33.77686" lon="-84.38955"></trkpt>
+            <trkpt lat="33.77687" lon="-84.3904"></trkpt>
+            <trkpt lat="33.77687" lon="-84.39054"></trkpt>
+            <trkpt lat="33.77687" lon="-84.39064"></trkpt>
+            <trkpt lat="33.77687" lon="-84.39065"></trkpt>
+            <trkpt lat="33.77688" lon="-84.39096"></trkpt>
+            <trkpt lat="33.77688" lon="-84.39099"></trkpt>
+            <trkpt lat="33.77688" lon="-84.39106"></trkpt>
+            <trkpt lat="33.77688" lon="-84.39123"></trkpt>
+            <trkpt lat="33.77688" lon="-84.39139"></trkpt>
+            <trkpt lat="33.77689" lon="-84.3921"></trkpt>
+            <trkpt lat="33.77689" lon="-84.39256"></trkpt>
+            <trkpt lat="33.7769" lon="-84.39311"></trkpt>
+            <trkpt lat="33.77691" lon="-84.39363"></trkpt>
+            <trkpt lat="33.77691" lon="-84.39363"></trkpt>
+            <trkpt lat="33.77692" lon="-84.39387"></trkpt>
+            <trkpt lat="33.77692" lon="-84.39424"></trkpt>
+            <trkpt lat="33.77694" lon="-84.39507"></trkpt>
+            <trkpt lat="33.77694" lon="-84.3951"></trkpt>
+            <trkpt lat="33.77695" lon="-84.39513"></trkpt>
+            <trkpt lat="33.77697" lon="-84.39521"></trkpt>
+            <trkpt lat="33.77699" lon="-84.39525"></trkpt>
+            <trkpt lat="33.777" lon="-84.39527"></trkpt>
+            <trkpt lat="33.77701" lon="-84.39529"></trkpt>
+            <trkpt lat="33.77703" lon="-84.39531"></trkpt>
+            <trkpt lat="33.77704" lon="-84.39533"></trkpt>
+            <trkpt lat="33.77705" lon="-84.39535"></trkpt>
+            <trkpt lat="33.77707" lon="-84.39536"></trkpt>
+            <trkpt lat="33.77711" lon="-84.3954"></trkpt>
+            <trkpt lat="33.77716" lon="-84.39545"></trkpt>
+            <trkpt lat="33.77753" lon="-84.39569"></trkpt>
+            <trkpt lat="33.77755" lon="-84.3957"></trkpt>
+            <trkpt lat="33.77764" lon="-84.39577"></trkpt>
+            <trkpt lat="33.77772" lon="-84.39582"></trkpt>
+            <trkpt lat="33.77775" lon="-84.39584"></trkpt>
+            <trkpt lat="33.77781" lon="-84.39588"></trkpt>
+            <trkpt lat="33.7779" lon="-84.39598"></trkpt>
+            <trkpt lat="33.77794" lon="-84.39603"></trkpt>
+            <trkpt lat="33.77798" lon="-84.39608"></trkpt>
+            <trkpt lat="33.778" lon="-84.39611"></trkpt>
+            <trkpt lat="33.77804" lon="-84.39618"></trkpt>
+            <trkpt lat="33.7781" lon="-84.39629"></trkpt>
+            <trkpt lat="33.77816" lon="-84.39644"></trkpt>
+            <trkpt lat="33.7782" lon="-84.39662"></trkpt>
+            <trkpt lat="33.77821" lon="-84.39666"></trkpt>
+            <trkpt lat="33.77822" lon="-84.39673"></trkpt>
+            <trkpt lat="33.77823" lon="-84.39681"></trkpt>
+            <trkpt lat="33.77824" lon="-84.39691"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>310 Ferst Dr NW - 813 Ferst Dr NW</name>
+        <desc>0.3 mi, 0:06</desc>
+        <trkseg>
+            <trkpt lat="33.77824" lon="-84.39691"></trkpt>
+            <trkpt lat="33.77824" lon="-84.39719"></trkpt>
+            <trkpt lat="33.77825" lon="-84.39766"></trkpt>
+            <trkpt lat="33.77825" lon="-84.3978"></trkpt>
+            <trkpt lat="33.77827" lon="-84.39913"></trkpt>
+            <trkpt lat="33.77827" lon="-84.39922"></trkpt>
+            <trkpt lat="33.77828" lon="-84.39937"></trkpt>
+            <trkpt lat="33.77828" lon="-84.39943"></trkpt>
+            <trkpt lat="33.77829" lon="-84.3995"></trkpt>
+            <trkpt lat="33.77839" lon="-84.39996"></trkpt>
+            <trkpt lat="33.77846" lon="-84.4002"></trkpt>
+            <trkpt lat="33.77848" lon="-84.40052"></trkpt>
+            <trkpt lat="33.77849" lon="-84.4007"></trkpt>
+            <trkpt lat="33.77848" lon="-84.40087"></trkpt>
+            <trkpt lat="33.77849" lon="-84.40101"></trkpt>
+            <trkpt lat="33.77849" lon="-84.40101"></trkpt>
+            <trkpt lat="33.77846" lon="-84.40114"></trkpt>
+            <trkpt lat="33.7784" lon="-84.4013"></trkpt>
+            <trkpt lat="33.77838" lon="-84.40133"></trkpt>
+            <trkpt lat="33.77837" lon="-84.40135"></trkpt>
+            <trkpt lat="33.77825" lon="-84.40154"></trkpt>
+            <trkpt lat="33.77812" lon="-84.40175"></trkpt>
+            <trkpt lat="33.77805" lon="-84.40185"></trkpt>
+            <trkpt lat="33.77804" lon="-84.40186"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>813 Ferst Dr NW - 355 Ferst Dr NW</name>
+        <desc>0.4 mi, 0:07</desc>
+        <trkseg>
+            <trkpt lat="33.77804" lon="-84.40186"></trkpt>
+            <trkpt lat="33.77805" lon="-84.40185"></trkpt>
+            <trkpt lat="33.77812" lon="-84.40175"></trkpt>
+            <trkpt lat="33.77812" lon="-84.40175"></trkpt>
+            <trkpt lat="33.77806" lon="-84.40169"></trkpt>
+            <trkpt lat="33.77785" lon="-84.4017"></trkpt>
+            <trkpt lat="33.77778" lon="-84.4017"></trkpt>
+            <trkpt lat="33.77758" lon="-84.40171"></trkpt>
+            <trkpt lat="33.77735" lon="-84.4017"></trkpt>
+            <trkpt lat="33.77718" lon="-84.4017"></trkpt>
+            <trkpt lat="33.77718" lon="-84.4017"></trkpt>
+            <trkpt lat="33.77717" lon="-84.40167"></trkpt>
+            <trkpt lat="33.77713" lon="-84.40159"></trkpt>
+            <trkpt lat="33.77712" lon="-84.40159"></trkpt>
+            <trkpt lat="33.77709" lon="-84.40154"></trkpt>
+            <trkpt lat="33.77708" lon="-84.40152"></trkpt>
+            <trkpt lat="33.77704" lon="-84.40146"></trkpt>
+            <trkpt lat="33.77698" lon="-84.40139"></trkpt>
+            <trkpt lat="33.77692" lon="-84.40133"></trkpt>
+            <trkpt lat="33.77686" lon="-84.40128"></trkpt>
+            <trkpt lat="33.77679" lon="-84.40123"></trkpt>
+            <trkpt lat="33.77665" lon="-84.40114"></trkpt>
+            <trkpt lat="33.77663" lon="-84.40113"></trkpt>
+            <trkpt lat="33.77652" lon="-84.40106"></trkpt>
+            <trkpt lat="33.77647" lon="-84.40104"></trkpt>
+            <trkpt lat="33.77608" lon="-84.4008"></trkpt>
+            <trkpt lat="33.77594" lon="-84.40078"></trkpt>
+            <trkpt lat="33.77585" lon="-84.40077"></trkpt>
+            <trkpt lat="33.77583" lon="-84.40077"></trkpt>
+            <trkpt lat="33.7758" lon="-84.40077"></trkpt>
+            <trkpt lat="33.77578" lon="-84.40076"></trkpt>
+            <trkpt lat="33.77576" lon="-84.40075"></trkpt>
+            <trkpt lat="33.77572" lon="-84.40073"></trkpt>
+            <trkpt lat="33.77566" lon="-84.4007"></trkpt>
+            <trkpt lat="33.77562" lon="-84.40066"></trkpt>
+            <trkpt lat="33.77517" lon="-84.4003"></trkpt>
+            <trkpt lat="33.77495" lon="-84.40013"></trkpt>
+            <trkpt lat="33.77475" lon="-84.39996"></trkpt>
+            <trkpt lat="33.77472" lon="-84.3999"></trkpt>
+            <trkpt lat="33.77468" lon="-84.39979"></trkpt>
+            <trkpt lat="33.77465" lon="-84.3997"></trkpt>
+            <trkpt lat="33.77464" lon="-84.39964"></trkpt>
+            <trkpt lat="33.77463" lon="-84.39957"></trkpt>
+            <trkpt lat="33.77463" lon="-84.39949"></trkpt>
+            <trkpt lat="33.77461" lon="-84.39928"></trkpt>
+            <trkpt lat="33.77461" lon="-84.39923"></trkpt>
+            <trkpt lat="33.77461" lon="-84.39922"></trkpt>
+            <trkpt lat="33.7746" lon="-84.39919"></trkpt>
+            <trkpt lat="33.77458" lon="-84.39913"></trkpt>
+            <trkpt lat="33.77458" lon="-84.39864"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>355 Ferst Dr NW - Power Plant Dr NW</name>
+        <desc>0.4 mi, 0:07</desc>
+        <trkseg>
+            <trkpt lat="33.77458" lon="-84.39864"></trkpt>
+            <trkpt lat="33.77458" lon="-84.39856"></trkpt>
+            <trkpt lat="33.77457" lon="-84.39854"></trkpt>
+            <trkpt lat="33.77456" lon="-84.39853"></trkpt>
+            <trkpt lat="33.77454" lon="-84.39852"></trkpt>
+            <trkpt lat="33.77442" lon="-84.39852"></trkpt>
+            <trkpt lat="33.77406" lon="-84.39851"></trkpt>
+            <trkpt lat="33.77402" lon="-84.39851"></trkpt>
+            <trkpt lat="33.77402" lon="-84.39851"></trkpt>
+            <trkpt lat="33.77402" lon="-84.39817"></trkpt>
+            <trkpt lat="33.77403" lon="-84.39789"></trkpt>
+            <trkpt lat="33.77402" lon="-84.39781"></trkpt>
+            <trkpt lat="33.77402" lon="-84.39781"></trkpt>
+            <trkpt lat="33.77384" lon="-84.39776"></trkpt>
+            <trkpt lat="33.77377" lon="-84.39763"></trkpt>
+            <trkpt lat="33.77377" lon="-84.39763"></trkpt>
+            <trkpt lat="33.77377" lon="-84.39762"></trkpt>
+            <trkpt lat="33.7734" lon="-84.39693"></trkpt>
+            <trkpt lat="33.7734" lon="-84.39692"></trkpt>
+            <trkpt lat="33.77323" lon="-84.39668"></trkpt>
+            <trkpt lat="33.77321" lon="-84.39609"></trkpt>
+            <trkpt lat="33.77322" lon="-84.39607"></trkpt>
+            <trkpt lat="33.77322" lon="-84.39606"></trkpt>
+            <trkpt lat="33.77324" lon="-84.39604"></trkpt>
+            <trkpt lat="33.77325" lon="-84.39603"></trkpt>
+            <trkpt lat="33.77325" lon="-84.39601"></trkpt>
+            <trkpt lat="33.77325" lon="-84.3955"></trkpt>
+            <trkpt lat="33.77325" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77325" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77317" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77308" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77308" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77297" lon="-84.3953"></trkpt>
+            <trkpt lat="33.77292" lon="-84.39524"></trkpt>
+            <trkpt lat="33.77288" lon="-84.39517"></trkpt>
+            <trkpt lat="33.77285" lon="-84.39507"></trkpt>
+            <trkpt lat="33.77282" lon="-84.39499"></trkpt>
+            <trkpt lat="33.7728" lon="-84.39493"></trkpt>
+            <trkpt lat="33.77273" lon="-84.39484"></trkpt>
+            <trkpt lat="33.77273" lon="-84.39484"></trkpt>
+            <trkpt lat="33.77276" lon="-84.39478"></trkpt>
+            <trkpt lat="33.77277" lon="-84.39474"></trkpt>
+            <trkpt lat="33.77277" lon="-84.39471"></trkpt>
+            <trkpt lat="33.77277" lon="-84.39428"></trkpt>
+            <trkpt lat="33.77277" lon="-84.39428"></trkpt>
+            <trkpt lat="33.77305" lon="-84.39428"></trkpt>
+        </trkseg>
+    </trk>
+    <trk>
+        <name>Power Plant Dr NW - 750-762 Techwood Dr NW</name>
+        <desc>0.5 mi, 0:09</desc>
+        <trkseg>
+            <trkpt lat="33.77305" lon="-84.39428"></trkpt>
+            <trkpt lat="33.77277" lon="-84.39428"></trkpt>
+            <trkpt lat="33.77277" lon="-84.39428"></trkpt>
+            <trkpt lat="33.77277" lon="-84.39471"></trkpt>
+            <trkpt lat="33.77277" lon="-84.39474"></trkpt>
+            <trkpt lat="33.77276" lon="-84.39478"></trkpt>
+            <trkpt lat="33.77273" lon="-84.39484"></trkpt>
+            <trkpt lat="33.77273" lon="-84.39484"></trkpt>
+            <trkpt lat="33.7728" lon="-84.39493"></trkpt>
+            <trkpt lat="33.77282" lon="-84.39499"></trkpt>
+            <trkpt lat="33.77285" lon="-84.39507"></trkpt>
+            <trkpt lat="33.77288" lon="-84.39517"></trkpt>
+            <trkpt lat="33.77292" lon="-84.39524"></trkpt>
+            <trkpt lat="33.77297" lon="-84.3953"></trkpt>
+            <trkpt lat="33.77308" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77308" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77317" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77325" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77345" lon="-84.39548"></trkpt>
+            <trkpt lat="33.7735" lon="-84.39548"></trkpt>
+            <trkpt lat="33.77356" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77381" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77384" lon="-84.39549"></trkpt>
+            <trkpt lat="33.77387" lon="-84.39548"></trkpt>
+            <trkpt lat="33.77391" lon="-84.39544"></trkpt>
+            <trkpt lat="33.77391" lon="-84.39544"></trkpt>
+            <trkpt lat="33.77391" lon="-84.39506"></trkpt>
+            <trkpt lat="33.77391" lon="-84.39491"></trkpt>
+            <trkpt lat="33.77392" lon="-84.39437"></trkpt>
+            <trkpt lat="33.77391" lon="-84.39423"></trkpt>
+            <trkpt lat="33.77391" lon="-84.39378"></trkpt>
+            <trkpt lat="33.77391" lon="-84.39368"></trkpt>
+            <trkpt lat="33.7739" lon="-84.39286"></trkpt>
+            <trkpt lat="33.7739" lon="-84.39257"></trkpt>
+            <trkpt lat="33.77389" lon="-84.39198"></trkpt>
+            <trkpt lat="33.77389" lon="-84.39198"></trkpt>
+            <trkpt lat="33.77427" lon="-84.39198"></trkpt>
+            <trkpt lat="33.77484" lon="-84.39197"></trkpt>
+            <trkpt lat="33.77497" lon="-84.39197"></trkpt>
+            <trkpt lat="33.77514" lon="-84.39197"></trkpt>
+            <trkpt lat="33.77528" lon="-84.39197"></trkpt>
+            <trkpt lat="33.77536" lon="-84.39197"></trkpt>
+            <trkpt lat="33.77541" lon="-84.39197"></trkpt>
+        </trkseg>
+    </trk>
+</gpx>

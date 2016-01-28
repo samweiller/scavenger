@@ -8,27 +8,39 @@
 
 import UIKit
 import Parse
+var theObjectID = "foo"
+var theTeamLocation = PFObject(className:"Location")
 
 class InstructionViewController: UIViewController {
     @IBOutlet weak var theTeamViewer: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        var query = PFQuery(className:"user")
-//        query.getObjectInBackgroundWithId("xWMyZEGZ") {
-//            (gameScore: PFObject?, error: NSError?) -> Void in
-//            if error == nil && gameScore != nil {
-//                print(gameScore)
-//            } else {
-//                print(error)
-//            }
-//        }
         
         var currentUser = PFUser.currentUser()
         self.theTeamViewer.text = currentUser!.username
         
+        theTeamLocation["teamName"] = PFUser.currentUser()?.username
+        theTeamLocation["latitude"] = 0
+        theTeamLocation["longitude"] = 0
+        theTeamLocation["teamScore"] = 0
+        
+        theTeamLocation.saveInBackgroundWithBlock {
+            (success: Bool, error: NSError?) -> Void in
+            if (success) {
+                print("done")
+                // The object has been saved.
+            } else {
+                print("sad panda")
+                // There was a problem, check error.description
+            }
+        }
+        
+        sleep(2)
+        var theObjectID = theTeamLocation.objectId! as String
+        
     }
     
-        
+    
 }
 

@@ -38,7 +38,6 @@ class RegisterViewController: UIViewController {
                 let mainStoryboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
                 print(mainStoryboard)
                 let vc : UIViewController = mainStoryboard.instantiateViewControllerWithIdentifier("InstructionViewController") as UIViewController
-//                self.showViewController(vc as UIViewController, sender: vc)
                 self.presentViewController(vc, animated: true, completion: nil)
             }
         }
@@ -64,7 +63,6 @@ class RegisterViewController: UIViewController {
                 self.errorZone.text = errorString // display the error
             }
         }
-        
     }
     
     override func viewDidLoad() {

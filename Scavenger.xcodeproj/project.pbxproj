@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00CE535B1622931082C99871 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336B2417314901036D3E0F5F /* Pods.framework */; };
-		46A90578A6C0A945B39161E6 /* Pods_Scavenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6021C9DD72CD85D6EF049F /* Pods_Scavenger.framework */; };
 		C52D422C1C036EEC00ABE909 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D422B1C036EEC00ABE909 /* mapViewController.swift */; };
 		C52D422E1C036FF400ABE909 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D422D1C036FF400ABE909 /* welcomeViewController.swift */; };
 		C52D42301C03703600ABE909 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D422F1C03703600ABE909 /* LeaderboardViewController.swift */; };
-		C55CE09B1C0945EA00A8A4C9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55CE09A1C0945EA00A8A4C9 /* Bolts.framework */; };
+		C54552CB1C0A32F400B80362 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54552CA1C0A32F400B80362 /* ScoreViewController.swift */; };
 		C57305EE1C0361140074F02B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57305ED1C0361140074F02B /* AppDelegate.swift */; };
 		C57305F01C0361140074F02B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57305EF1C0361140074F02B /* FirstViewController.swift */; };
 		C57305F21C0361140074F02B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57305F11C0361140074F02B /* SecondViewController.swift */; };
@@ -24,6 +23,18 @@
 		C573061E1C0361280074F02B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573061D1C0361280074F02B /* MapKit.framework */; };
 		C592DD751C036B24005F2B3F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C592DD741C036B24005F2B3F /* Podfile */; };
 		C598181B1C093B380098B7BC /* SwiftLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598181A1C093B380098B7BC /* SwiftLocation.swift */; };
+		C5E09E631C0B8BBF00B1CE66 /* techWaypoints.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E621C0B8BBF00B1CE66 /* techWaypoints.gpx */; };
+		C5E09E651C0B962800B1CE66 /* techPoint2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E641C0B962800B1CE66 /* techPoint2.gpx */; };
+		C5E09E671C0BCD7400B1CE66 /* TestLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E661C0BCD7400B1CE66 /* TestLocations.gpx */; };
+		C5E09E691C0BCDC700B1CE66 /* appLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E681C0BCDC700B1CE66 /* appLocations.gpx */; };
+		C5E09E6B1C0BCE7500B1CE66 /* location1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E6A1C0BCE7500B1CE66 /* location1.gpx */; };
+		C5E09E6D1C0BCE8700B1CE66 /* location2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E6C1C0BCE8700B1CE66 /* location2.gpx */; };
+		C5E09E6F1C0BCEA600B1CE66 /* location3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E6E1C0BCEA600B1CE66 /* location3.gpx */; };
+		C5E09E711C0BCEC200B1CE66 /* location4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E701C0BCEC200B1CE66 /* location4.gpx */; };
+		C5E09E731C0BCED900B1CE66 /* location5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E721C0BCED900B1CE66 /* location5.gpx */; };
+		C5E09E751C0BDC9900B1CE66 /* iPhone 6.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E741C0BDC9900B1CE66 /* iPhone 6.png */; };
+		C5E09E771C0BDD3100B1CE66 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E09E761C0BDD3100B1CE66 /* launchImage.png */; };
+		C5E89CD31C09701600AAA90A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E89CD21C09701600AAA90A /* Utilities.swift */; };
 		C5EB0D111C08F73700F558F3 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C529F5731C08CA1500378ED1 /* InstructionViewController.swift */; };
 		C5EB0D121C08F73900F558F3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C529F5751C08DA8100378ED1 /* RegisterViewController.swift */; };
 		C5FA96EB1C061DF400B18988 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FA96E11C061DF400B18988 /* AudioToolbox.framework */; };
@@ -57,13 +68,12 @@
 /* Begin PBXFileReference section */
 		0A6377D98315ADD302E47023 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		336B2417314901036D3E0F5F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C6021C9DD72CD85D6EF049F /* Pods_Scavenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scavenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C529F5731C08CA1500378ED1 /* InstructionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
 		C529F5751C08DA8100378ED1 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C52D422B1C036EEC00ABE909 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		C52D422D1C036FF400ABE909 /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
 		C52D422F1C03703600ABE909 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
-		C55CE09A1C0945EA00A8A4C9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "build/Debug-iphoneos/Bolts.framework"; sourceTree = SOURCE_ROOT; };
+		C54552CA1C0A32F400B80362 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		C57305EA1C0361140074F02B /* Scavenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scavenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57305ED1C0361140074F02B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C57305EF1C0361140074F02B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +91,18 @@
 		C573061D1C0361280074F02B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C592DD741C036B24005F2B3F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C598181A1C093B380098B7BC /* SwiftLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLocation.swift; sourceTree = "<group>"; };
+		C5E09E621C0B8BBF00B1CE66 /* techWaypoints.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = techWaypoints.gpx; sourceTree = "<group>"; };
+		C5E09E641C0B962800B1CE66 /* techPoint2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = techPoint2.gpx; sourceTree = "<group>"; };
+		C5E09E661C0BCD7400B1CE66 /* TestLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLocations.gpx; sourceTree = "<group>"; };
+		C5E09E681C0BCDC700B1CE66 /* appLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = appLocations.gpx; sourceTree = "<group>"; };
+		C5E09E6A1C0BCE7500B1CE66 /* location1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location1.gpx; sourceTree = "<group>"; };
+		C5E09E6C1C0BCE8700B1CE66 /* location2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location2.gpx; sourceTree = "<group>"; };
+		C5E09E6E1C0BCEA600B1CE66 /* location3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location3.gpx; sourceTree = "<group>"; };
+		C5E09E701C0BCEC200B1CE66 /* location4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location4.gpx; sourceTree = "<group>"; };
+		C5E09E721C0BCED900B1CE66 /* location5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location5.gpx; sourceTree = "<group>"; };
+		C5E09E741C0BDC9900B1CE66 /* iPhone 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6.png"; sourceTree = "<group>"; };
+		C5E09E761C0BDD3100B1CE66 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
+		C5E89CD21C09701600AAA90A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		C5FA96DD1C061D8000B18988 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		C5FA96DE1C061D8000B18988 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		C5FA96E11C061DF400B18988 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -106,13 +128,11 @@
 				C5FA96EE1C061DF400B18988 /* CoreLocation.framework in Frameworks */,
 				C5FA96EF1C061DF400B18988 /* libsqlite3.tbd in Frameworks */,
 				C5FA96F01C061DF400B18988 /* libz.tbd in Frameworks */,
-				C55CE09B1C0945EA00A8A4C9 /* Bolts.framework in Frameworks */,
 				C5FA96F11C061DF400B18988 /* QuartzCore.framework in Frameworks */,
 				C5FA96F21C061DF400B18988 /* Security.framework in Frameworks */,
 				C5FA96F41C061DF400B18988 /* SystemConfiguration.framework in Frameworks */,
 				C573061E1C0361280074F02B /* MapKit.framework in Frameworks */,
 				00CE535B1622931082C99871 /* Pods.framework in Frameworks */,
-				46A90578A6C0A945B39161E6 /* Pods_Scavenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +156,6 @@
 		00E6D7D22A2A2CB37E2B171E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C55CE09A1C0945EA00A8A4C9 /* Bolts.framework */,
 				C5FA96E11C061DF400B18988 /* AudioToolbox.framework */,
 				C5FA96E21C061DF400B18988 /* CFNetwork.framework */,
 				C5FA96E31C061DF400B18988 /* CoreGraphics.framework */,
@@ -148,7 +167,6 @@
 				C5FA96EA1C061DF400B18988 /* SystemConfiguration.framework */,
 				C5FA96DE1C061D8000B18988 /* Parse.framework */,
 				336B2417314901036D3E0F5F /* Pods.framework */,
-				8C6021C9DD72CD85D6EF049F /* Pods_Scavenger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,17 +210,30 @@
 			children = (
 				C57305ED1C0361140074F02B /* AppDelegate.swift */,
 				C52D422B1C036EEC00ABE909 /* mapViewController.swift */,
+				C5E89CD21C09701600AAA90A /* Utilities.swift */,
 				C52D422D1C036FF400ABE909 /* welcomeViewController.swift */,
 				C52D422F1C03703600ABE909 /* LeaderboardViewController.swift */,
 				C57305EF1C0361140074F02B /* FirstViewController.swift */,
 				C57305F11C0361140074F02B /* SecondViewController.swift */,
 				C57305F31C0361140074F02B /* Main.storyboard */,
+				C54552CA1C0A32F400B80362 /* ScoreViewController.swift */,
 				C529F5751C08DA8100378ED1 /* RegisterViewController.swift */,
 				C529F5731C08CA1500378ED1 /* InstructionViewController.swift */,
 				C57305F61C0361140074F02B /* Assets.xcassets */,
 				C57305F81C0361140074F02B /* LaunchScreen.storyboard */,
 				C57305FB1C0361140074F02B /* Info.plist */,
 				C598181A1C093B380098B7BC /* SwiftLocation.swift */,
+				C5E09E621C0B8BBF00B1CE66 /* techWaypoints.gpx */,
+				C5E09E661C0BCD7400B1CE66 /* TestLocations.gpx */,
+				C5E09E681C0BCDC700B1CE66 /* appLocations.gpx */,
+				C5E09E6A1C0BCE7500B1CE66 /* location1.gpx */,
+				C5E09E6C1C0BCE8700B1CE66 /* location2.gpx */,
+				C5E09E6E1C0BCEA600B1CE66 /* location3.gpx */,
+				C5E09E701C0BCEC200B1CE66 /* location4.gpx */,
+				C5E09E721C0BCED900B1CE66 /* location5.gpx */,
+				C5E09E641C0B962800B1CE66 /* techPoint2.gpx */,
+				C5E09E761C0BDD3100B1CE66 /* launchImage.png */,
+				C5E09E741C0BDC9900B1CE66 /* iPhone 6.png */,
 			);
 			path = Scavenger;
 			sourceTree = "<group>";
@@ -344,10 +375,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E09E771C0BDD3100B1CE66 /* launchImage.png in Resources */,
 				C57305FA1C0361140074F02B /* LaunchScreen.storyboard in Resources */,
+				C5E09E671C0BCD7400B1CE66 /* TestLocations.gpx in Resources */,
+				C5E09E751C0BDC9900B1CE66 /* iPhone 6.png in Resources */,
+				C5E09E691C0BCDC700B1CE66 /* appLocations.gpx in Resources */,
 				C57305F71C0361140074F02B /* Assets.xcassets in Resources */,
+				C5E09E6D1C0BCE8700B1CE66 /* location2.gpx in Resources */,
+				C5E09E651C0B962800B1CE66 /* techPoint2.gpx in Resources */,
+				C5E09E631C0B8BBF00B1CE66 /* techWaypoints.gpx in Resources */,
+				C5E09E731C0BCED900B1CE66 /* location5.gpx in Resources */,
+				C5E09E711C0BCEC200B1CE66 /* location4.gpx in Resources */,
 				C57305F51C0361140074F02B /* Main.storyboard in Resources */,
+				C5E09E6B1C0BCE7500B1CE66 /* location1.gpx in Resources */,
 				C592DD751C036B24005F2B3F /* Podfile in Resources */,
+				C5E09E6F1C0BCEA600B1CE66 /* location3.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +452,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scavenger/Pods-Scavenger-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -421,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57305F21C0361140074F02B /* SecondViewController.swift in Sources */,
+				C54552CB1C0A32F400B80362 /* ScoreViewController.swift in Sources */,
 				C57305EE1C0361140074F02B /* AppDelegate.swift in Sources */,
 				C5EB0D111C08F73700F558F3 /* InstructionViewController.swift in Sources */,
 				C5EB0D121C08F73900F558F3 /* RegisterViewController.swift in Sources */,
@@ -428,6 +471,7 @@
 				C52D422E1C036FF400ABE909 /* welcomeViewController.swift in Sources */,
 				C598181B1C093B380098B7BC /* SwiftLocation.swift in Sources */,
 				C52D42301C03703600ABE909 /* LeaderboardViewController.swift in Sources */,
+				C5E89CD31C09701600AAA90A /* Utilities.swift in Sources */,
 				C52D422C1C036EEC00ABE909 /* mapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,7 +616,7 @@
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				INFOPLIST_FILE = Scavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -640,7 +684,7 @@
 				CLANG_MODULES_AUTOLINK = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				INFOPLIST_FILE = Scavenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -635,7 +635,7 @@ public class SwiftLocation: NSObject, CLLocationManagerDelegate {
 	private func completeRequest(request: SwiftLocationRequest!, object: AnyObject?, error: NSError?) {
 		
 		if request.type == RequestType.RegionMonitor { // If request is a region monitor we need to explictly stop it
-			manager.stopMonitoringForRegion(request.region!)
+//			manager.stopMonitoringForRegion(request.region!)
 		} else if (request.type == RequestType.BeaconRegionProximity) { // If request is a proximity beacon monitor we need to explictly stop it
 			manager.stopRangingBeaconsInRegion(request.beaconReg!)
 		}

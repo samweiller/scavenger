@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="33.776913" lon="-84.3893984">
+<name>33.776913,-84.3893984</name>
+<desc>66 5th St NW, Atlanta, GA 30308, USA</desc>
+</wpt>
+<wpt lat="33.776913" lon="-84.390397">
+<name>33.776913,-84.390397</name>
+<desc>810-842 Williams St NW, Atlanta, GA 30308, USA</desc>
+</wpt>
+<wpt lat="33.7768651" lon="-84.3921255">
+<name>33.7768651,-84.3921255</name>
+<desc>164-210 5th St NW, Atlanta, GA 30313, USA</desc>
+</wpt>
+<wpt lat="33.7769289" lon="-84.3936427">
+<name>33.7769289,-84.3936427</name>
+<desc>815 Fowler St NW, Atlanta, GA 30313, USA</desc>
+</wpt>
+<wpt lat="33.7764819" lon="-84.3936811">
+<name>33.7764819,-84.3936811</name>
+<desc>807 Fowler St NW, Atlanta, GA 30313, USA</desc>
+</wpt>
+<wpt lat="33.7758913" lon="-84.3936811">
+<name>33.7758913,-84.3936811</name>
+<desc>771 Fowler St NW, Atlanta, GA 30313, USA</desc>
+</wpt>
+<wpt lat="33.7739277" lon="-84.3928745">
+<name>33.7739277,-84.3928745</name>
+<desc>150 Bobby Dodd Way NW, Atlanta, GA 30313, USA</desc>
+</wpt>
+<wpt lat="33.7738639" lon="-84.3920679">
+<name>33.7738639,-84.3920679</name>
+<desc>137-157 Bobby Dodd Way NW, Atlanta, GA 30313, USA</desc>
+</wpt>
+<wpt lat="33.7719641" lon="-84.3919911">
+<name>33.7719641,-84.3919911</name>
+<desc>706 Techwood Dr NW, Atlanta, GA 30313, USA</desc>
+</wpt>
+<wpt lat="33.7712936" lon="-84.3920679">
+<name>33.7712936,-84.3920679</name>
+<desc>134 North Avenue NW, Atlanta, GA 30313, USA</desc>
+</wpt>
+<trk>
+<name>66 5th St NW - 810-842 Williams St NW</name>
+<desc>0.1 mi, 0:01</desc>
+<trkseg>
+<trkpt lat="33.77685" lon="-84.3894"></trkpt>
+<trkpt lat="33.77686" lon="-84.38955"></trkpt>
+<trkpt lat="33.77687" lon="-84.3904"></trkpt>
+<trkpt lat="33.77687" lon="-84.3904"></trkpt>
+<trkpt lat="33.77691" lon="-84.39041"></trkpt>
+</trkseg>
+</trk>
+<trk>
+<name>810-842 Williams St NW - 164-210 5th St NW</name>
+<desc>0.1 mi, 0:02</desc>
+<trkseg>
+<trkpt lat="33.77691" lon="-84.39041"></trkpt>
+<trkpt lat="33.77687" lon="-84.3904"></trkpt>
+<trkpt lat="33.77687" lon="-84.3904"></trkpt>
+<trkpt lat="33.77687" lon="-84.39054"></trkpt>
+<trkpt lat="33.77687" lon="-84.39064"></trkpt>
+<trkpt lat="33.77687" lon="-84.39065"></trkpt>
+<trkpt lat="33.77688" lon="-84.39096"></trkpt>
+<trkpt lat="33.77688" lon="-84.39099"></trkpt>
+<trkpt lat="33.77688" lon="-84.39106"></trkpt>
+<trkpt lat="33.77688" lon="-84.39123"></trkpt>
+<trkpt lat="33.77688" lon="-84.39139"></trkpt>
+<trkpt lat="33.77689" lon="-84.3921"></trkpt>
+<trkpt lat="33.77689" lon="-84.39213"></trkpt>
+</trkseg>
+</trk>
+<trk>
+<name>164-210 5th St NW - 815 Fowler St NW</name>
+<desc>0.1 mi, 0:02</desc>
+<trkseg>
+<trkpt lat="33.77689" lon="-84.39213"></trkpt>
+<trkpt lat="33.77689" lon="-84.39256"></trkpt>
+<trkpt lat="33.7769" lon="-84.39311"></trkpt>
+<trkpt lat="33.77691" lon="-84.39363"></trkpt>
+</trkseg>
+</trk>
+<trk>
+<name>815 Fowler St NW - 807 Fowler St NW</name>
+<desc>0.0 mi, 0:01</desc>
+<trkseg>
+<trkpt lat="33.77691" lon="-84.39363"></trkpt>
+<trkpt lat="33.77654" lon="-84.39364"></trkpt>
+<trkpt lat="33.77648" lon="-84.39364"></trkpt>
+</trkseg>
+</trk>
+<trk>
+<name>807 Fowler St NW - 771 Fowler St NW</name>
+<desc>0.0 mi, 0:01</desc>
+<trkseg>
+<trkpt lat="33.77648" lon="-84.39364"></trkpt>
+<trkpt lat="33.77644" lon="-84.39364"></trkpt>
+<trkpt lat="33.77632" lon="-84.39365"></trkpt>
+<trkpt lat="33.77593" lon="-84.39365"></trkpt>
+</trkseg>
+</trk>
+<trk>
+<name>771 Fowler St NW - 150 Bobby Dodd Way NW</name>
+<desc>0.2 mi, 0:03</desc>
+<trkseg>
+<trkpt lat="33.77593" lon="-84.39365"></trkpt>
+<trkpt lat="33.77591" lon="-84.39348"></trkpt>
+<trkpt lat="33.77588" lon="-84.39332"></trkpt>
+<trkpt lat="33.77588" lon="-84.39332"></trkpt>
+<trkpt lat="33.77584" lon="-84.39332"></trkpt>
+<trkpt lat="33.7758" lon="-84.39332"></trkpt>
+<trkpt lat="33.77575" lon="-84.3933"></trkpt>
+<trkpt lat="33.77557" lon="-84.39324"></trkpt>
+<trkpt lat="33.77546" lon="-84.3932"></trkpt>
+<trkpt lat="33.7754" lon="-84.39318"></trkpt>
+<trkpt lat="33.77527" lon="-84.39314"></trkpt>
+<trkpt lat="33.77514" lon="-84.39312"></trkpt>
+<trkpt lat="33.77506" lon="-84.39311"></trkpt>
+<trkpt lat="33.77488" lon="-84.39311"></trkpt>
+<trkpt lat="33.77478" lon="-84.3931"></trkpt>
+<trkpt lat="33.77473" lon="-84.3931"></trkpt>
+<trkpt lat="33.77468" lon="-84.39309"></trkpt>
+<trkpt lat="33.77462" lon="-84.39308"></trkpt>
+<trkpt lat="33.77452" lon="-84.39306"></trkpt>
+<trkpt lat="33.77445" lon="-84.39303"></trkpt>
+<trkpt lat="33.77437" lon="-84.39301"></trkpt>
+<trkpt lat="33.77428" lon="-84.39297"></trkpt>
+<trkpt lat="33.7741" lon="-84.39289"></trkpt>
+<trkpt lat="33.77406" lon="-84.39287"></trkpt>
+<trkpt lat="33.77401" lon="-84.39286"></trkpt>
+<trkpt lat="33.77398" lon="-84.39286"></trkpt>
+<trkpt lat="33.7739" lon="-84.39286"></trkpt>
+</trkseg>
+</trk>
+<trk>
+<name>150 Bobby Dodd Way NW - 137-157 Bobby Dodd Way NW</name>
+<desc>0.0 mi, 0:01</desc>
+<trkseg>
+<trkpt lat="33.7739" lon="-84.39286"></trkpt>
+<trkpt lat="33.7739" lon="-84.39257"></trkpt>
+<trkpt lat="33.77389" lon="-84.39207"></trkpt>
+</trkseg>
+</trk>
+<trk>
+<name>137-157 Bobby Dodd Way NW - 706 Techwood Dr NW</name>
+<desc>0.1 mi, 0:03</desc>
+<trkseg>
+<trkpt lat="33.77389" lon="-84.39207"></trkpt>
+<trkpt lat="33.77389" lon="-84.39198"></trkpt>
+<trkpt lat="33.77389" lon="-84.39198"></trkpt>
+<trkpt lat="33.77324" lon="-84.39199"></trkpt>
+<trkpt lat="33.77303" lon="-84.39199"></trkpt>
+<trkpt lat="33.77293" lon="-84.39199"></trkpt>
+<trkpt lat="33.77262" lon="-84.39199"></trkpt>
+<trkpt lat="33.77221" lon="-84.39199"></trkpt>
+<trkpt lat="33.77196" lon="-84.392"></trkpt>
+</trkseg>
+</trk>
+<trk>
+<name>706 Techwood Dr NW - 134 North Avenue NW</name>
+<desc>0.0 mi, 0:01</desc>
+<trkseg>
+<trkpt lat="33.77196" lon="-84.392"></trkpt>
+<trkpt lat="33.77191" lon="-84.392"></trkpt>
+<trkpt lat="33.77154" lon="-84.39202"></trkpt>
+<trkpt lat="33.77139" lon="-84.39203"></trkpt>
+<trkpt lat="33.77129" lon="-84.39206"></trkpt>
+</trkseg>
+</trk>
+</gpx>
